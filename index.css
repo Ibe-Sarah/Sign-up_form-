@@ -3,7 +3,7 @@ body {
     padding: 0;
     margin: 0;
   }
-  
+  /* to ensure the background and form is placed side by side */
   .container {
     display: flex;
     height: 100vh;
@@ -22,7 +22,8 @@ body {
   }
   
   .content {
-    flex: 1;
+    /* flex= 1 to enable it take 50% of the page */
+    flex: 1; 
     height: 100%;
     overflow: auto;
     margin-top: 100px;
@@ -74,3 +75,35 @@ body {
     font-weight: bolder;
     margin-left: 200px;
  }
+ img {
+  width: 100px;
+  height: 120px;
+ } 
+ 
+  
+  @font-face {
+    font-family: "norse-bold";
+    src: url("norse-bold-webfont.woff") format("woff"),
+url("norse-bold-webfont.woff2") format("woff2");
+
+  }
+ 
+  h3 {
+    font-family: 'norse-bold';
+    font-size: 70px;
+    margin-top:30px;
+    color: white;
+  }
+  .logo {
+    margin-left: 200px;
+    margin-top: 150px;
+    display: flex;       /*enable logo and text stay side by side */
+    
+
+  }
+  .behind {
+    background-color: #596D48;
+    border-color: #596D48;
+    height: 120px;
+
+  }
