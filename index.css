@@ -59,7 +59,7 @@ body {
     padding: 10px;
     background-color: #596D48;
     color: white;
-    border: none;
+    border: none; /*to remove the black border conflicitng with the green border */
     cursor: pointer;
   }
   a {
@@ -106,4 +106,14 @@ url("norse-bold-webfont.woff2") format("woff2");
     border-color: #596D48;
     height: 120px;
 
+  }
+  input:focus {
+    border: 2px solid blue;
+    outline: none;  /*this ensure border effect is actualized*/
+    box-shadow: gray;
+   
+  }
+  input:hover {
+    border-color: #596D48;
+   border: none;
   }
