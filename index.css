@@ -117,3 +117,8 @@ url("norse-bold-webfont.woff2") format("woff2");
     border-color: #596D48;
    border: none;
   }
+
+  #message {
+    font-family: 'Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif';
+      
+  }
